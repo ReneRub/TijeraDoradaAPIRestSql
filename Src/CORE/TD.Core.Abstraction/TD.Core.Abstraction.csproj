@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\COMMON\TD.Common\TD.Common.csproj" />
+    <ProjectReference Include="..\..\CONTRACTS\TD.Contracts\TD.Contracts.csproj" />
+    <ProjectReference Include="..\..\INFRASTRUCTURE\TD.Infrastructure.Abstraction\TD.Infrastructure.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
